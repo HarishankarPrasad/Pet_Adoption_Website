@@ -1,0 +1,65 @@
+* {
+    font-family: 'Kalnia', serif;
+}
+
+h1 label {
+    color: green;
+}
+
+h3 {
+    color: burlywood;
+}
+
+h3 label {
+    color: blueviolet;
+}
+
+
+.card-container {
+    /* border: solid black; */
+    margin: auto;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.card {
+    height: auto;
+    width: 300px;
+    border: 3px solid black ;
+    border-radius: 20px;
+    padding: 5px;
+    box-shadow: 5px 5px 5px black;
+    transition: 0.2s ease-in;
+}
+
+img {
+    width: 100%;
+    height: 50%;
+    border: 2px solid blue;
+    border-radius: 20px;
+}
+
+p {
+    font-size: 10px;
+}
+
+h2 {
+    margin: 0;
+    padding: 0;
+    color: blue;
+    text-shadow: black 2px 2px 0.2em;
+}
+
+.card:hover {
+    height: auto;
+    width: 310px;
+    padding: 8px;
+    box-shadow: 15px 15px 15px black;
+}
+
+@media(max-width: 500px) {
+    .card-container {
+        flex-wrap: wrap;
+    }
+}
